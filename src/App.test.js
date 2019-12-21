@@ -1,7 +1,4 @@
-
-
-
-// JEST has import issue. Still try to figure out.
+// JEST has import issue. Still try to figure out. :( 
 // const Item = require('./item/Item');
 
 // automatically unmount and cleanup DOM after the test is finished.

@@ -1,14 +1,15 @@
 .infoCard{
+    width: 100%;
     background:#d8d8d8;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
     border-radius: 5px;
+    position: relative;
     display: flex;
     flex-direction: row ;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    width: 100%;
     margin: 5px;
 }
 .infoCard:nth-child(2n){
@@ -16,11 +17,12 @@
 }
 
 .timeIcon{
-    margin-right:15px;
+    margin-left: 15px;
     text-align: left;
 }
 .timeIcon h2{
     margin:10px 0;
+    font-size:20px;
 }
 .importWrapper{
     display: flex;
@@ -39,10 +41,13 @@
 }
 
 .weatherDescription {
+    position: absolute;
     font-size: 8px;
     background: #1b5d73;
     color:#fff;
     padding:5px;
+    top:10px;
+    right:0;
 }
 
 .weatherIcon img{
@@ -55,6 +60,9 @@
     }
 }
 @media screen and (min-width:998px){
+    .timeIcon h2{
+        font-size:1.5em;
+    }
     .infoCard{
         width: calc(33.3% - 30px);
     }
