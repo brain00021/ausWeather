@@ -38,8 +38,9 @@ class Item extends Component {
               {
                 weather.map((data,idx) => (
                   <div key={idx} className={style.weatherIcon}>
-                    <img src={(!picReg.test(data['icon'])) ? `http://openweathermap.org/img/wn/${data['icon']}@2x.png`:data['icon']} alt={data['icon']}/> 
                     <span>{data['main']}</span>
+                    <img src={(!picReg.test(data['icon'])) ? `http://openweathermap.org/img/wn/${data['icon']}@2x.png`:data['icon']} alt={data['icon']}/> 
+                    <span className={style.weatherDescription}>{data['description']}</span>
                   </div>
                 ))
               }
