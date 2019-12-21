@@ -27,7 +27,7 @@ class App extends Component {
       
       <div className="App">
         <div className="WeatherWrapper">
-        <h1>City Weather Data</h1>
+        <h1>Aus City Weather Today</h1>
         <div className="WeatherInfoWrapper">
           {
             WeatherData.map((text,idx) => (
@@ -41,7 +41,5 @@ class App extends Component {
   }
 
 }
-module.exports = {
-  WeatherData: WeatherData
-}
+
 export default App;
