@@ -16,12 +16,14 @@ You will also see any lint errors in the console.
     $ npm run test
 Run the test will show you two different stuation.
 
-Success result:
+**Success result:**
 ![enter image description here](https://upload.cc/i1/2019/12/21/lu0v1j.jpg)
 
-Fail result
+**Fail result**
 ![enter image description here](https://upload.cc/i1/2019/12/21/DL2nTO.jpg)
+
     $ npm start testcoveragetest
 you can run this command if you need more detail for test result 
+
 **result**
 ![enter image description here](https://upload.cc/i1/2019/12/21/s8Z69Q.jpg)
